@@ -1,6 +1,6 @@
 program pca_imkl
 
-   USE mkl95_LAPACK, ONLY: SYEVX
+   USE LAPACK95, ONLY: SYEVX
 
    implicit none
    integer, parameter :: PREC=8
